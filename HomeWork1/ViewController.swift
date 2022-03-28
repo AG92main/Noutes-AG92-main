@@ -10,12 +10,13 @@ import UIKit
 class ViewController: UIViewController {
 
     
-    @IBOutlet weak var TextViewNotes: UITextView!
+    @IBAction func logoTextView(_ sender: Any) {
+    }
     
-    @IBOutlet weak var titleView: UITextField!
+    @IBAction func logoViewButton(_ sender: Any) {
+    }
     
-   
-    @IBOutlet weak var titeleButtom: UIBarButtonItem!
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()}
