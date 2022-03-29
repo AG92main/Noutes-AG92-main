@@ -8,32 +8,14 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    
     @IBAction func logoTextView(_ sender: Any) {
     }
-    
+
     @IBAction func logoViewButton(_ sender: Any) {
     }
-    
-    
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()}
         // Do any additional setup after loading the view.
-        
-      
-        
-    }
-    
-    
-        
-        
-        
-        
-    
-  
-    
-    
-
+}
 
