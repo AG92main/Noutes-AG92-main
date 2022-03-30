@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="XsU-kK-wYW">
             <objects>
-                <viewController id="C80-iA-OL9" sceneMemberID="viewController">
+                <viewController id="C80-iA-OL9" customClass="ViewController" customModule="HomeWork1" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="cZp-hd-mbe">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,7 +23,7 @@
                                 <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <color key="textColor" systemColor="labelColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences" autocorrectionType="yes"/>
                             </textView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="8qK-nl-yBg"/>
@@ -39,7 +39,7 @@
                     <navigationItem key="navigationItem" id="zZU-R8-YXv">
                         <nil key="title"/>
                         <textField key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Заметка" borderStyle="roundedRect" textAlignment="center" minimumFontSize="17" id="xpS-1S-nB0">
-                            <rect key="frame" x="147" y="4" width="120" height="36"/>
+                            <rect key="frame" x="96.5" y="4" width="221" height="36"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
                             <textInputTraits key="textInputTraits"/>
@@ -53,11 +53,14 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="mainTextView" destination="4cV-Jf-riO" id="qP1-0o-5Ab"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="t6m-1F-XKM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="kb4-9g-Odn" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-1709" y="38"/>
+            <point key="canvasLocation" x="-1710.144927536232" y="37.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mNm-Cs-Vxk">
