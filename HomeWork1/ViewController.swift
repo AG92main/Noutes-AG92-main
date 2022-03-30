@@ -8,7 +8,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
     @IBOutlet weak var mainTextView: UITextView!
 
     @IBAction func logoTextView(_ sender: Any) {
@@ -18,11 +17,8 @@ class ViewController: UIViewController {
         view.endEditing(true)
     }
 
-
     override func viewDidLoad() {
-        super.viewDidLoad()}
-        // Do any additional setup after loading the view.
-    private func setupTextView() {
-        
-    }
+        super.viewDidLoad()
+
+        mainTextView.becomeFirstResponder()}
 }
